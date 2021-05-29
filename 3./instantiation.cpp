@@ -32,5 +32,11 @@ int main(){
         int y{4}; // instead of "int y; y = 4;"
     */
 
+    int x;
+    int y{};
+
+    std::cout << "not initialized x variable: " << x << "\n";
+    std::cout << "initialized y variable to default value: " << y << "\n";
+
     return 0;
 }
